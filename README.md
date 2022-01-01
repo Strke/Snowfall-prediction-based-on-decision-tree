@@ -8,37 +8,37 @@
 
 └─决策树训练
 
- CART.py   //CART算法实现及模型训练
+&emsp; &emsp; CART.py   //CART算法实现及模型训练
 
- config.py   //参数设置
+ &emsp;&emsp;config.py   //参数设置
 
- data_read.py   //数据预处理以及数据集划分
+ &emsp;&emsp;data_read.py   //数据预处理以及数据集划分
 
- main.py  //主执行函数
+&emsp;&emsp; main.py  //主执行函数
 
- vail_and_test.py   //验证和预测
+ &emsp;&emsp;vail_and_test.py   //验证和预测
 
  
 
 └─数据及模型
 
- BTree.pickle   //决策树模型
+ &emsp;&emsp;BTree.pickle   //决策树模型
 
- data.csv
+&emsp;&emsp; data.csv
 
- rate.csv
+&emsp;&emsp; rate.csv
 
- test_data.csv  //测试数据集
+ &emsp;&emsp;test_data.csv  //测试数据集
 
- test_kunming.csv  //原始数据集
+ &emsp;&emsp;test_kunming.csv  //原始数据集
 
  
 
 └─界面设计
 
- Ui_design.py   //各控件实现
+ &emsp;&emsp;Ui_design.py   //各控件实现
 
- WidgetMain.py   //主界面
+&emsp;&emsp; WidgetMain.py   //主界面
 
 
 
