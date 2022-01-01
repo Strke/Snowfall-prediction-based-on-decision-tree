@@ -1,10 +1,7 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 from CART import load_model
-from PyQt5.QtWidgets import QApplication, QWidget, QToolTip, QPushButton, QMessageBox, QDesktopWidget, QFileDialog, QColorDialog, QFrame, QLabel, QVBoxLayout, QTableWidget, QTableWidgetItem
-import pandas as pd
+from PyQt5.QtWidgets import QWidget, QFileDialog, QTableWidgetItem
 import numpy as np
-from PyQt5.QtCore import QStringListModel
-from PyQt5.QtGui import QStandardItemModel, QStandardItem
 from vail_and_test import run
 
 
