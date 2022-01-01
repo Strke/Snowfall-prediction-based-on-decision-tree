@@ -74,7 +74,7 @@
 
 &emsp;&emsp;本项目中我们使用了cart算法递归地构建了决策树模型，并将训练后的决策树模型用列表保存了下来。其中，算法的具体流程如下：
 
-![流程图](Snowfall-prediction-based-on-decision-tree/graph/QQ图片20220101170709.png)
+![流程图](graph/QQ图片20220101170709.png)
 
 通过训练，得到的模型如下：
 
@@ -82,11 +82,11 @@
 
 &emsp;&emsp;并且，在验证集上跑该模型，得到的各参数如下图所示：
 
-![img](Snowfall-prediction-based-on-decision-tree\graph\_6P9C]PXGFJNU3_7HSZV]}S.png)
+![img](graph/_6P9C]PXGFJNU3_7HSZV]}S.png)
 
 &emsp;&emsp;在测试集上跑该模型，得到的各参数如下图所示：
 
-![QQ图片20220101170709](Snowfall-prediction-based-on-decision-tree\graph\QQ图片20220101170709.png)
+![QQ图片20220101170709](graph/QQ图片20220101170709.png)
 
 &emsp;&emsp;我们发现，该模型在测试集和验证集上均运行较好，精度较高。
 
@@ -94,4 +94,4 @@
 
 &emsp;&emsp;在界面设计中，我们主要设计了两个QPushButton控件用来执行操作和三个QTableWidget控件用来显示输入输出。两个按钮分别连接了predict和load函数，用来使用模型和导入数据，如下：
 
-![界面](Snowfall-prediction-based-on-decision-tree\graph\界面.png)
+![界面](graph/界面.png)
